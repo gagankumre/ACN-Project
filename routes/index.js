@@ -7,11 +7,11 @@ const { ensureAuthenticated, forwardAuthenticated } = require('../config/auth');
 
 module.exports = function (app, io) {
     
-	app.get('/dashboard',ensureAuthenticated, function(req,res){
+	app.get('/public_chat',ensureAuthenticated, function(req,res){
 		User.find({}, function(err, docs){
 			if (err) throw err
 			console.log(docs)
-			res.render('dashboard', {
+			res.render('public_chat', {
 				user : req.user,
 				user_list : docs
 			})

@@ -51,7 +51,7 @@
 			
 			$messageForm.submit(function(e){
 				e.preventDefault();
-				socket.emit('send message',$message.val());
+				socket.emit('send message', '<%=user.name%> : ' +  $message.val());
 				$message.val('');
 				//console.log('Submitted');
 			});
