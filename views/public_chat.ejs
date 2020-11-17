@@ -12,21 +12,23 @@
 
 	<style >
 		body{
-			margin-top: 30px;
+			margin-top: 25px;
+			background-image: url("/resources/public_chat_bg.jpg");
+			background-color: #5aeeb5;
+			text-decoration: beige;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		
 		<div class="col-md-4">
-				<div class="well">	
-					<h3>Welcome <%= user.name %></h3>
-					<ul class="list-group" id="users"></ul>
-				</div>
-				<h1 class="mt-4">
-					<a href="/users/logout" class="btn btn-secondary">Logout</a>
-				</h1>	
+			<div class="well">
+				<h3>Welcome <%= user.name %></h3>
+				<ul class="list-group" id="users"></ul>
+			</div>
+			<h1 class="mt-4">
+				<a href="/users/logout" class="btn btn-secondary">Logout</a>
+			</h1>	
 		</div>
 		<div class="col-md-8">
 			<div class="chat" id="chat">	
