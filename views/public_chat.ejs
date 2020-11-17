@@ -17,6 +17,11 @@
 			background-color: #5aeeb5;
 			text-decoration: beige;
 		}
+		div.ex3 {
+			  height: 480px;
+			  width: 100%;  
+			  overflow-y: auto;
+		}
 	</style>
 </head>
 <body>
@@ -29,7 +34,11 @@
 			<h1 class="mt-4">
 				<a href="/users/logout" class="btn btn-secondary">Logout</a>
 			</h1>	
-			<form id="messageForm" style="position: fixed; bottom:0; width:27%;">	
+		</div>
+		<div class="col-md-8 ex3">
+			<div class="chat" id="chat">
+			</div>
+			<form id="messageForm" style="position: fixed; bottom:0; width:55%;">	
 				<div class="form-group">
 					<label>	Enter Message</label>
 					<textarea class="form-control" id="message">	</textarea>
@@ -37,10 +46,6 @@
 					<input type="submit" class="btn btn-primary" value="send message">
 				</div>
 			</form>
-		</div>
-		<div class="col-md-8">
-			<div class="chat" id="chat">
-			</div>
 		</div>
 	</div>
 	<script>
