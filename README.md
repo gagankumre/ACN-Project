@@ -5,8 +5,7 @@
 1. Install node.js 
 
 ## How to Run
-
-### Linux
+  
 In the terminal:
 1. git clone https://github.com/gagankumre/ACN-Project.git (Download the code)
 2. cd ACN-Project (Navigate to inside the project folder on terminal, where I would hopefully see a package.json file)
