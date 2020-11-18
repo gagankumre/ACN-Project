@@ -19,4 +19,4 @@ In the terminal:
 1. open 2 different browser and perform registration with 2 different iitr emails.
 2. chat from both ends as 2 different user in the group chat app
 
-![Chrome and Firefox browsers](https://github.com/gagankumre/ACN-Project/blob/main/views/resources/multi-browser-chat.png)
+![Chrome and Firefox browsers](https://github.com/gagankumre/ACN-Project/blob/main/group_9-Code/views/resources/multi-browser-chat.png)
