@@ -13,3 +13,9 @@ In the terminal:
 3. sudo npm install (Do an npm install for installing all the project dependencies) 
 4. sudo npm install -g nodemon (Do an npm install -g nodemon for installing all the project dependencies)
 5. sudo node app.js (Then npm start OR node app.js OR nodemon app.js to get the app running on local host) 
+6. Open any browser and go to localhost:5000 see the app live
+7. perform registration with valid iitr email and then proceed to group chat by logging in.
+
+### Running a multi-user chat scenario
+1. open 2 different browser and perform registration with 2 different iitr emails.
+2. chat from both ends as 2 different user in the group chat app
